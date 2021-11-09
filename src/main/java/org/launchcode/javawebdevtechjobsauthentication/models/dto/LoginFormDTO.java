@@ -6,10 +6,12 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 public class LoginFormDTO {
-    public void getPassword() {
+    public String getPassword() {
+        return null;
     };
 
-    public void getUsername() {
+    public int getUsername() {
+        return 0;
     };
 
     public static class loginFormDTO {
